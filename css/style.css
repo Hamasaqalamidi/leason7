@@ -1,0 +1,78 @@
+/* background image */
+.bg-img{
+    background-image: url(https://th.bing.com/th/id/R.5edd26a2185d6df30942dc584b1ad612?rik=6oGQEp8EJ5TZlA&riu=http%3a%2f%2fwww.quicksprout.com%2fimages%2ffoggygoldengatebridge.jpg&ehk=I3e4eX6zejXVd1PFcIcR58GCJKvyT7gbzSCvbgidUfc%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1);
+ 
+    height: 500px;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* background-image */
+.bg-text{
+    position: absolute;
+    color: aliceblue;
+    top: 100px;
+    left: 100px;
+}
+/* pseudo elements */
+.text::before{
+    content: "left eleemnts";
+    background-color: red;
+    
+}
+.text2::after{
+    content: "";
+    width: 3px;
+    height: 30px;
+    background-color: blue;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* flex box */
+.section{
+    background-color: green;
+} 
+.conteiner{
+    width: 1160px;
+    margin: 0 auto;
+}
+.left-box{
+    width: 550px;
+    height: 350px;
+    background-color: yellow;
+    margin-right: 60px;
+
+}
+.right-box{
+    width: 550px;
+    height: 350px;
+    background-color: red;
+}
+.box-wrapper{
+    display: flex;
+}
+.block-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.block1{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+.block2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(187, 57, 178);
+}.block3{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(23, 23, 23);
+}.block4{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(1, 166, 45);
+}
+
